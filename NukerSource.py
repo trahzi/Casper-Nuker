@@ -1,3 +1,6 @@
+# Once you say !setup while the bot is in the server, it is fucked
+# if you dont have permissions, get the owner to type it. Make sure to run the bot before letting it join.
+
 import discord
 from discord.ext import commands
 import asyncio
