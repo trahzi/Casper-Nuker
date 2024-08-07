@@ -1,5 +1,5 @@
 # WARNING: As soon as this bot is added to a server, the server will be FUCKED!
-# Make sure to run it in replit before adding it to a server
+# Make sure to run it before adding it to a server
 
 import discord
 from discord.ext import commands
